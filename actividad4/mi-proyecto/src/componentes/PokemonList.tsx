@@ -144,7 +144,7 @@ export default function PokemonList() {
                                 pokemon = {pokemon} 
                                 pokemonPresionable = {eventoClick} 
                             />
-                            {/* Muestra el contador de click para el pokemon especifico */}
+                            {/*Muestra el contador de click para el pokemon especifico*/}
                             <p style={{ margin: '0 0 10px 10px', fontSize: '0.9em' }}>
                                 Clicks: <strong>{contClick[pokemon.name] || 0}</strong>
                             </p>
